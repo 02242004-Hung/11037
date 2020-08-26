@@ -8,3 +8,9 @@ DVCs（Distributed Version Control System） 將資料分散於不同設備上(�
 ## GitHub 是公開的線上平台，因此很適合拿來放一些作品集，或著是共同編輯的文案等，有著類似端硬碟的功能(而且還是免費的，只要不介意會公開的話)。
 而且每當有人對文案進行改動，GitHub 還會記下改動時間、編輯者等資訊，又能在更動時檢查後再與原版合併，因此很方便團隊進行共同編輯。
 ```
+## 學了輸入與輸出(Input and Output)
+```
+python輸入:input()
+python輸出: print()
+python格式化輸出技術
+```
