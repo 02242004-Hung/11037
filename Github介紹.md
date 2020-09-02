@@ -19,3 +19,10 @@ a = eval(input("請輸入："))
 
 ## 可以一次輸入多（兩）個資料
 a,b = eval(input("請輸入兩個數位："))
+
+## 無條件進位
+math.ceil(number) 
+## 無條件捨去
+math.floor(number )
+## 四捨五入
+round(number )
