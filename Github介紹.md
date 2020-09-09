@@ -26,15 +26,10 @@ math.ceil(number)
 math.floor(number )
 ## 四捨五入
 round(number )
-
 ## 簡易計算機
 ```
 print("選項:")
-   print("輸入 '+' 讓兩個數值互加")
-   print("輸入 '-' 讓兩個數值互減")
-   print("輸入 '*' 讓兩個數值互乘")
-   print("輸入 '/' 讓兩個數值互除")
-   print("輸入 'exit' 來結束程式")
+print("輸入 '+' 讓兩個數值互加") print("輸入 '-' 讓兩個數值互減") print("輸入 '*' 讓兩個數值互乘") print("輸入 '/' 讓兩個數值互除") print("輸入 'exit' 來結束程式")
    user_input = input(": ")
     
    if user_input == "+":
