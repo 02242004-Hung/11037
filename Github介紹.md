@@ -13,25 +13,42 @@ GitHub 是公開的線上平台，因此很適合拿來放一些作品集，或�
 python輸入:input()
 python輸出: print()
 python格式化輸出技術
-
 ## 讀取使用者輸入的整數==>使用eval()函數
 a = eval(input("請輸入："))
-
 ## 可以一次輸入多（兩）個資料
 a,b = eval(input("請輸入兩個數位："))
-
 ## 無條件進位
 math.ceil(number) 
 ## 無條件捨去
 math.floor(number )
 ## 四捨五入
 round(number )
+## 程式流程控制　之 選擇(判斷) SELECTION /DECISION
+```
+Python 程式碼縮排
+Python 語言以冒號「:」及縮排來表示程式區塊
+縮排為 1 個 Tab 鍵或 4 個空白鍵
+PS: Python沒有switch
+單向判斷式（if⋯）: 是非題｜對的才要做
+if [條件]:
+   {條件滿足才會執行}
+雙向判斷式（if⋯else）: 二選一｜一定要選的
+if [條件]:
+   {條件滿足才會執行}
+else
+   {條件不滿足才會執行}
+多向判斷式（if⋯elif⋯else）: 多選一
+```
 ## 簡易計算機
 ```
 print("選項:")
-print("輸入 '+' 讓兩個數值互加") print("輸入 '-' 讓兩個數值互減") print("輸入 '*' 讓兩個數值互乘") print("輸入 '/' 讓兩個數值互除") print("輸入 'exit' 來結束程式")
-   user_input = input(": ")
-    
+print("輸入 '+' 讓兩個數值互加")
+print("輸入 '-' 讓兩個數值互減")
+print("輸入 '*' 讓兩個數值互乘")
+print("輸入 '/' 讓兩個數值互除")
+print("輸入 'exit' 來結束程式")
+
+   user_input = input(": ") 
    if user_input == "+":
       num1 = float(input("請輸入數字:"))
       num2 = float(input("請輸入另一個數字:"))
