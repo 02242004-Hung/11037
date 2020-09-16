@@ -9,7 +9,7 @@ GitHub 是公開的線上平台，因此很適合拿來放一些作品集，或�
 而且每當有人對文案進行改動，GitHub 還會記下改動時間、編輯者等資訊，
 又能在更動時檢查後再與原版合併，因此很方便團隊進行共同編輯。
 ```
-基礎python應用
+## 基礎python應用
 ```
 ## 輸入與輸出(Input and Output)
 python輸入:input() python輸出: print() python格式化輸出技術
