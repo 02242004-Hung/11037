@@ -1,0 +1,23 @@
+#[程式設計題]請問從元旦到今天你已經過幾天呢了？
+```
+import time  # 使用python標準函數庫的time模組{處理時間的函數}
+date = time.localtime()	
+print(date)
+```
+```
+import time
+date = time.localtime()		#取得目前的日期時間
+year = date[0]
+month = date[1]
+day = date[2]
+day_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+if year%400==0 or (year%4==0 and year%100!=0):	#判斷是否為閏年
+  day_month[1] = 29
+if month==1:
+    print(day)
+else:
+    print(sum(day_month[:month-1])+day)
+```
+#[程式設計題]輸入年月日可以顯示那一年從元旦到今天已經過幾天
+year, month, day = eval(input("請輸入年月日"))
+year, month, day 
