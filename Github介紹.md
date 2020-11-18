@@ -70,3 +70,12 @@ elif user_input == "/":
 else:
    print("不知道你在輸入什麼") 
 ```      
+## 資料排序
+```
+預設由小排到大
+scores=[8,6,9,1,2]
+scores.sort()
+print(scores)
+反向排序，由大排小
+scores.sort(reverse=True)
+```
