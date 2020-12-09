@@ -79,3 +79,12 @@ print(scores)
 反向排序，由大排小
 scores.sort(reverse=True)
 ```
+## 2020/12/9功課
+```
+a =input("")
+b = a[::-1]
+if a == b:
+  print("yes")
+else:
+  print("no")
+```  
