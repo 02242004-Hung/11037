@@ -88,3 +88,7 @@ if a == b:
 else:
   print("no")
 ```  
+## Python IDLE
+```
+能有自訂的模組 tk
+```
